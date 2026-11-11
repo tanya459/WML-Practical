@@ -1,20 +1,21 @@
 <?xml version="1.0"?>
-
-<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.2//EN"
-"http://www.wapforum.org/DTD/wml12.dtd">
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
+"http://www.wapforum.org/DTD/wml_1.1.xml">
 
 <wml>
-
-  <card id="one" title="First Card">
+  <card id="card1" title="First Card">
     <p>
-      This is the first card in the deck
+      This is the first card in the deck.
+      <br/>
+      <a href="#card2">Next Card</a>
     </p>
   </card>
 
-  <card id="two" title="Second Card">
+  <card id="card2" title="Second Card">
     <p>
-      This is the second card in the deck
+      This is the second card in the deck.
+      <br/>
+      <a href="#card1">Back to First Card</a>
     </p>
   </card>
-
 </wml>
